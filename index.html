@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>WORD COUNTER</title>
+</head>
+<body>
+    <div class="flexcontainer">
+        <div class="navbar">
+            <div class="title">
+                Welcome to Word Counter
+            </div>
+        </div>
+        <form class="container">
+            <textarea name="writehere" id="hehe" cols="30" rows="10" placeholder="Write Here..."></textarea>
+            <div class="countbox">
+                <div class="word">
+                    <strong>Word count : </strong>
+                    <h1 class="countword">0</h1>
+                </div>
+                <div class="letter">
+                    <strong>Letter count : </strong>
+                    <h1 class="countletter">0</h1>
+                </div>
+                <div class="spaces">
+                    <strong>Number of spaces : </strong>
+                    <h1 class="countspaces">0</h1>
+                </div>
+            </div>
+            <div class="btn">
+                <input class="reset" type="reset" onclick="resetFunc()" value="Reset">
+            </div>
+        </form>
+    </div>
+    <script src="sandbox.js" defer></script>
+</body>
+</html>
+
+
+
